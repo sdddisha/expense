@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import ExpenseAmount from './ExpenseAmount';
-import Date from './ExpenseDate';
+import ExpenseDate from './ExpenseDate';
 import ExpenseTitle from './ExpenseTitle';
 
 function ExpenseItem(props) {
@@ -13,7 +13,7 @@ function ExpenseItem(props) {
 
             {/* <h2>Date: {props.date.toLocaleString('en-US',{month:'long'})}</h2> */}
 
-            <Date date={props.date} />
+            <ExpenseDate date={props.date} />
           
        
         </div>
