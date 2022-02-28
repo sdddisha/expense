@@ -1,13 +1,14 @@
+import './ExpenseItem.css'
 import React,{useState} from 'react';
 function ExpenseTitle(props){
     const [title,setTitle] =useState(props.title);
-    console.log('Calling');
+   // console.log('Calling');
      
-    const clicked=()=>{
+    const clickEvent=()=>{
         setTitle('Updated');
     }
 
-    return <div><h2>The Item is: {title}</h2>
-     <button onClick={clicked}>Change Title</button></div>
+    return <div className="expense-item__description ">The Item is: {title}
+     <button onClick={clickEvent}>Change Title</button></div>
 }
 export default ExpenseTitle;

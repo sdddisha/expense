@@ -7,21 +7,21 @@ function App() {
       const products= [
         {
             id:'e1',
-            title:'iphone',
+            title:'iPhone 11',
             amount:50000,
          date:new Date(2021,2,25),
     
         },
         {
          id:'e2',
-         title:'galaxy s30',
+         title:'Galaxy S30',
          amount:45000,
       date:new Date(2021,2,26),
     
      },
      {
          id:'e3',
-         title:'mi note 10',
+         title:'Mi note 10',
          amount:25000,
       date: new Date(2021,2,27),
     
